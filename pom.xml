@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@akshitasharma19 
+bhasker-manikyala
+/
+DevOpsClassCodes
+Public
+forked from edureka-git/DevOpsClassCodes
+Code
+Pull requests
+4
+Actions
+Projects
+Wiki
+Security
+Insights
+DevOpsClassCodes/pom.xml
+
+root initial commit
+Latest commit c986b9e on Jan 10, 2017
+ History
+ 0 contributors
+495 lines (469 sloc)  20 KB
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -273,8 +303,7 @@
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-
-				-plugin</artifactId>
+                        <artifactId>maven-enforcer-plugin</artifactId>
                         <version>1.0</version>
                         <executions>
                             <execution>
@@ -395,7 +424,7 @@
                                 <configuration>
                                     <rules>
                                         <requireMavenVersion>
-                                            <version>[3.0,)</version>
+                                            <version>[2.0.9, 2.2.1]</version>
                                         </requireMavenVersion>
                                     </rules>
                                 </configuration>
@@ -494,3 +523,16 @@
     </profiles>
 
 </project>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
