@@ -273,7 +273,8 @@
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-enforcer-plugin</artifactId>
+                        <artifactId>maven-
+				-plugin</artifactId>
                         <version>1.0</version>
                         <executions>
                             <execution>
@@ -394,7 +395,7 @@
                                 <configuration>
                                     <rules>
                                         <requireMavenVersion>
-                                            <version>[2.0.9, 2.2.1]</version>
+                                            <version>[3.0,)</version>
                                         </requireMavenVersion>
                                     </rules>
                                 </configuration>
